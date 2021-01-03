@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/blog.css" type="text/css" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+</head>
+<body>
+	<div id="divbodyholder">
+      <div class="headerholder">
+        <div class="header">
+          <div id="title">
+            <h2>
+              <a class="bigtitle" href="/">{{site.title}}</a>
+            </h2>
+            <div id="description">{{site.description}}
+            <div id="all_posts">
+              <a href="/blog">Admin blog posts</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+
+    <main class="page-content">
+        {{ content }}
+    </main>
+    </br>
+    <footer id="footer">
+        CC by-nc-nd <a href="https://t.me/{{site.telegram}}">Telegram ~ LostCat</a> — Proudly made with <a href="https://jekyllrb.com/">Jekyll</a>
+    </footer>
+</body>
+</html>
+

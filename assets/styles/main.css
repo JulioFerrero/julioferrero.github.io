@@ -1,0 +1,9 @@
+body{font-family:Verdana, sans-serif;margin: auto;padding: 20px;max-width: 720px;color:#ebdbb2;background-color:#282828;word-wrap: break-word;overflow-wrap: break-word;}
+        #divbodyholder{padding:5px;width:100%;max-width:874px;}
+        .header{width:100%;max-width:800px;margin:0px auto;padding-bottom:8px;}
+        .content{margin-bottom:5%;}
+        .nomargin{margin:0;}
+        .clear{clear:both;}
+        #footer{padding-top:10px;text-align:center;}
+        a:link:not(.bigtitle),a:visited:not(.bigtitle){color:#282828;background-color:#ebdbb2;padding: 3px 3px;display: inline-block;}
+		.bigtitle:link,.bigtitle:visited{text-decoration: none; color:#ebdbb2;}
